@@ -1,4 +1,3 @@
-import { useState } from "react";
 import "bootstrap/dist/css/bootstrap.min.css";
 import DisplayCounter from "./components/DisplayCounter";
 import Controls from "./components/Controls";
