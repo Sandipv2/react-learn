@@ -2,7 +2,7 @@ import {createStore} from 'redux'
 
 let INITIAL_VALUE = {
     count: 0,
-    privacy: true
+    privacy: false
 }
 
 const counterReducer = (store = INITIAL_VALUE, action) => {

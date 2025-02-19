@@ -11,7 +11,7 @@ function App() {
     <div className="card" style={{width: "100%"}}>
       <div className="card-body">
         <h1>Counter</h1>
-        {isPrivacy ? <DisplayCounter /> : <PrivacyMsg/>}
+        {isPrivacy ? <PrivacyMsg /> : <DisplayCounter/>}
         <Controls />
       </div>
     </div>
