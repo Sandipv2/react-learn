@@ -17,7 +17,7 @@ function Comp({ data, addFolder, deleteFileFolder }) {
               className="toggleIcon"
               onClick={() => handleToggleClick(item)}
             >
-              {isExpanded[item.name] ? "➖" : "➕"}
+              {isExpanded[item.name] ? "-" : "+"}
             </span>
           )}
           {item.name}
