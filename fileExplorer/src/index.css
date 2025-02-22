@@ -1,0 +1,9 @@
+.container {
+    padding-left: 25px;
+}
+
+.toggleIcon {
+    font-size: 1.5rem;
+    margin-right: 5px;
+    cursor: pointer;
+}
